@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Envs
+.venv/
+env/
+venv/
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# LangChain / LangGraph Artifacts
+*.db
+graph_structure.dot
+graph.png
+*.data
+*.pkl
+checkpoints/
+# Environment Variables
+.env
+.env.*
+*.temp_docs
+# FastAPI + Cache
+*.log
+*.sqlite3
+*.json
+
+# MacOS
+.DS_Store
